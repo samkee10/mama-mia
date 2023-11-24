@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+
+  .header {
+    background-image: url(https://st3.depositphotos.com/2370557/17258/i/450/depositphotos_172586624-stock-photo-hot-pepperoni-pizza.jpg);
+    background-size: cover;
+    height: 150px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+  }
+
+  Nav {
+    background-color: #18a2b8;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-container {
+    display: flex;
+     flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    border: solid gray 0.5px;
+  }
+  
+  .card-container > * {
+    margin: 10px;
+  }
+  .box-card{
+    display: flex;
+    border: solid black;
+  }
+  
+.nav-menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn-primary {
+    background-color: #18a2b8;
+    border-color: #18a2b8;
+  }
+  .btn-primary:hover, .btn-primary:active{
+    background-color: #178fa1;
+    border-color: #178fa1;
+  }
+  a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(207, 207, 207);
+  }
+  .btn-add{
+    background-color: red;
+  }
+  .linea{
+    border: 1px solid white;
+     width: 70%;
+     margin-left: 80px;
+  }
+.carrito-box{
+  display: flex;
+  justify-content: space-around;
+  
+}
